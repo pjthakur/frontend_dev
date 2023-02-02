@@ -23,7 +23,9 @@ function App() {
     setItems((output)=>{
       return [...output,itemList];
     }
-  )}
+    )
+    setItemList('');
+}
 
   const deleteItems=(index)=>{
     console.log("deleted");

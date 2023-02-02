@@ -1,95 +1,87 @@
-body{
+body {
   background-color: aliceblue;
   height: 100%;
   width: 100%;
 }
-.card{
+.card {
   display: block;
-  height:500px;
+  height: 500px;
   width: 420px;
   border-radius: 5%;
   background-color: rgb(51, 224, 224);
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  overflow-x: hidden;
 }
-.card::-webkit-scrollbar {
-  width: 0px;
-}
-
-
-h1{
+h1 {
   text-align: center;
   position: relative;
   top: 20px;
   padding: 5px;
   color: rgb(67, 67, 67);
   background-color: rgb(181, 181, 181);
-  
 }
-input{
+input {
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(45, 197, 197);
-  padding: 15px 40px 15px 40px; 
+  padding: 15px 40px 15px 40px;
   justify-content: center;
   border-radius: 20%;
-  border-style:none;
+  border-style: none;
   font-size: 20px;
   font-style: italic;
   outline-style: none;
-
 }
-.field{
+.field {
   display: flex;
   position: relative;
   top: 50px;
 }
-button{
+button {
   display: block;
-  background-color:rgb(181, 181, 181);
+  background-color: rgb(181, 181, 181);
   width: 50px;
-  border-style:none ;
+  border-style: none;
   border-radius: 20%;
   position: relative;
   left: -10px;
   font-size: 20px;
 }
-button:hover{
+button:hover {
   background-color: rgb(175, 172, 172);
   font-size: 25px;
 }
-ol{
+ol {
   position: relative;
   font-size: 20px;
-  top:50px;
+  top: 50px;
   left: 20px;
   list-style: none;
 }
-li{
+li {
   padding: 7px;
 }
-.sub-list{
+.sub-list {
   display: flex;
-  gap:20px;
+  gap: 20px;
   align-items: center;
-  color:rgb(67, 67, 67);
+  color: rgb(67, 67, 67);
 }
-.icon:hover{
+.icon:hover {
   color: rgb(255, 0, 0);
 }
-@media (max-width:450px) {
-  *{
-   background-color:  rgb(51, 224, 224);
+@media (max-width: 450px) {
+  * {
+    background-color: rgb(51, 224, 224);
   }
-  .card{
+  .card {
     height: 500px;
     width: 100%;
-    margin-top:0px;
+    margin-top: 0px;
   }
-  input{
+  input {
     width: 50%;
   }
 }
