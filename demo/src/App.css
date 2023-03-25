@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 45px;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 40px;
+  width: 200px;
+  max-width: 50%;
+  color: #f73a72;
+  transition: 0.5s;
+}
+form{
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 40px;
+  overflow: hidden;
+}
+form fieldset{
+  display: flex;
+  flex-direction: column;
+  /* width: 500px; */
+  gap: 5px;
+  font-size: 30px;
+  color: aliceblue;
+  background-color:#131a26;
+  border-radius: 40px;
+  border-style: none;
+  
+}
+input{
+  font-size: 20px;
+  height: 35px;
+  max-width: 80%;
+  border-radius: 10px;
+  border-style:hidden;
+  border-width: 1px;
+  overflow: hidden;
+  background-color: rgb(234, 234, 234);
+}
+span{color: red;}
+select{
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+button{
+  border-radius: 50px;
+  background-color: #d81e56;
+  color: #ffffff;
+  width: 180px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  border-style: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover{
+  background-color: aliceblue;
+  color: #131a26;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+@media(max-width:450px){
+  .App{
+    background-color: #131a26;
+    margin-top: 0;
+  }
+  form{
+    background-color: #131a26;
+  }
+}
+.FieldError{
+  font-size: 15px;
+  color: #ff004c;
+}
