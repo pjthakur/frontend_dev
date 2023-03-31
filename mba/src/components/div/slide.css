@@ -9,7 +9,7 @@
     background-size: 1540px;
     background-position: center center; 
     background-repeat: no-repeat;
-    
+    margin-top: 70px;
 }
 .sub-slide{
     flex: 1;
@@ -134,9 +134,14 @@
   } */
   
   .d-block {
-    height: 50vh;
+    height: 60vh;
     object-fit:cover;
     object-position: 80% 20%;
+  }
+  @media (max-width:600px){
+    .d-block{
+      height: 40vh;
+    }
   }
   
   .carousel-caption {
@@ -181,7 +186,7 @@
     top: 10vh;
     right: 14vw;
   }
-  .slideshoe-akam a{
+  #bharat-75 {
     position: absolute;
     color: #f20202;
     text-decoration: none;
@@ -191,18 +196,24 @@
     transition: .3s;
     font-size: 1.2rem;
   }
-  .slideshoe-akam a:hover{
+  #bharat-75:hover{
     color: #fff;
   }
   /*  react bootstrap carousel ends */
 
-  .icons{
-    color: aliceblue;
-    font-size: 2em;
-    padding-right: .4em;
+#slide1-content{
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    right: 16vw;
+    top: 35vh;
+    
+    gap: 10px;
+}
+.icons{
+    color: #ff0000;
     transition: .3s;
 }
 .icons:hover{
-    color: rgb(255, 255, 255);
-    opacity: 70%;
+    color: rgb(255, 251, 251);
 }
