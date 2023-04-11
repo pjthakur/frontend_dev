@@ -1,7 +1,7 @@
 import './slide.css'
 import { BsTwitter } from 'react-icons/bs'
 import { BsYoutube } from 'react-icons/bs'
-import akam from 'C:/Users/priya/Desktop/frontend_dev/mba/src/components/div/images/akam-300x203-1.jpg'
+import akam from './images/akam-300x203-1.jpg'
 const Slide = (props) =>{
  return(
     <div className="slidee" style ={{backgroundImage: `url(${props.image})`}}> 
