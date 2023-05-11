@@ -1,0 +1,20 @@
+.navbar{
+    background-color: black;
+}
+@media (max-width:900px) {
+    .nav-content{
+        display: none;
+        transform: ;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .nav-content{
+        width: 100%;
+        display: inline-block;
+        height: 100vh;
+        position: absolute;
+        transform: translateX(100%);
+    }
+}
